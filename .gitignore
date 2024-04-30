@@ -1,0 +1,12 @@
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*.zip
+build/
+env/
+experiments/
+*.csv
+*.2014654.0
+*.npz

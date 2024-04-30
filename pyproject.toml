@@ -1,0 +1,21 @@
+[project]
+name = "comp_rl"
+version = "0.0.1"
+description = "CompRL"
+readme = "README.md"
+# license = {file = "LICENSE.txt"}
+requires-python=">=3.9,<3.12"
+
+dependencies = [
+    "gymnasium",
+    "robosuite",
+    "termcolor",
+    "torch",
+    "tensorboard",
+    "stable_baselines3",
+    "scikit-learn",
+    "ml_collections",
+]
+
+[tool.setuptools.packages.find]
+exclude = ["experiments*", "results*", "scripts*"]
